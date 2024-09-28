@@ -1,0 +1,64 @@
+/*--------------------------------*/
+/* Variables */
+/*--------------------------------*/
+:root {
+    /*COLORS*/
+    --color-stroke: #333333;
+    /*UI PROPERTIES*/
+    /*UI TEXT*/
+    --ui-font: Arial, Helvetica, sans-serif;
+    --ui-font-size: 16px;
+    --ui-font-weight: normal;
+    --ui-font-color: var(--color-stroke);
+    /*UI BORDER*/
+    --ui-border-size: 1px;
+    --ui-border-color: var(--color-stroke);
+    --ui-border-style: solid;
+    --ui-border-radius: 4px;
+    --ui-border: var(--ui-border-size) var(--ui-border-style) var(--ui-border-color);
+    /*UI SHADOW*/
+    --ui-shadow-on: 0px 0px 0px 0px rgba(0, 0, 0, 0.4);
+    --ui-shadow-off: 0px 0px 0px 0px rgba(0, 0, 0, 0.0);
+    --ui-shadow-inset: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.4);
+}
+/*--------------------------------*/
+/* Overall Properties */
+/*--------------------------------*/        
+* {
+    /*POSITION*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*TEXT*/
+    font-family: var(--ui-font);
+    font-size: var(--ui-font-size);
+    font-weight: var(--ui-font-weight);
+}
+/*--------------------------------*/
+/* Flex Container */
+/*--------------------------------*/
+.flex {
+    /*POSITION*/
+    /*DISPLAY*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*BACKGROUND*/
+    /*BORDER*/
+}
+/*--------------------------------*/
+/* Template */
+/*--------------------------------*/
+    /*GRID*/
+    /*FLEX*/
+    /*VARS*/
+    /*POSITION*/
+    /*DISPLAY*/
+    /*BACKGROUND*/
+    /*BORDER*/
+    /*TEXT*/
+    /*SHADOW*/
+    /*TRANSITION*/
+    /*ANIMATION*/
+    /*TRANSFORM*/
+    /*DEBUGGING*/
